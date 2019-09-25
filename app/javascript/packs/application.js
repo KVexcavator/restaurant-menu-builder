@@ -15,7 +15,8 @@ require('bootstrap/dist/js/bootstrap')
 import 'bootstrap/dist/css/bootstrap.min.css';
 //test jquery, pipet.js
 $(function(){
-  $('.jqr').html('Jquery run!');
+  const test_text = 'Jquery run!'
+  $('.jqr').html(test_text);
   $('[data-toggle="tooltip"]').tooltip();
 })
 
