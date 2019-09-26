@@ -40,6 +40,7 @@ group :development, :test do
   gem 'rspec-rails', git: 'https://github.com/rspec/rspec-rails', branch: '4-0-dev'
   gem 'rspec-support', git: 'https://github.com/rspec/rspec-support'
   gem "factory_bot_rails"
+  gem 'shoulda-matchers'
 end
 
 group :test do
